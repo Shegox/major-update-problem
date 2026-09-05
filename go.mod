@@ -1,8 +1,8 @@
 module github.com/Shegox/major-update-problem
 
-go 1.18
+go 1.27
 
 require (
-    sigs.k8s.io/structured-merge-diff/v4 v4.7.0
-    github.com/cucumber/common/messages/go/v18 v18.0.0
+	github.com/cucumber/common/messages/go/v18 v18.0.0
+	sigs.k8s.io/structured-merge-diff/v7 v7.0.0
 )
